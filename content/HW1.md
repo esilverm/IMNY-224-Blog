@@ -46,3 +46,7 @@ How can AI help solve this issue? | AI would be able to recognize how to add the
 What role will humans have in addressing this issue? | Humans will have to provide information to the AI regarding what they would like to add as well as what their default configurations are for their projects.
 What data do you need to create an AI to help you address your issue? | I would need information from public repositories and to be able to know what license their repo is and what license mine is to prevent licensing issues that may arise.
 How will you responsibly gather this data in a way that respects individuals' privacy and consent? | Using open source repositories would be the most straightforward way to do this. By keeping track of licensing it could alleviate issues with individuals and their issues.
+
+Here is a flowchart containing my thoughts on how this should work.
+
+![my flowchart](/images/hw1-flowchart.jpg)
