@@ -35,16 +35,16 @@ Also I found the data collection process to be very long and tedious so I added 
 
 Below is a graph of the loss from when I trained the full model for the first time.
 
-![loss](images/hw5-loss-chart.png)
+![loss](../images/hw5-loss-chart.png)
 
 When I tried recording data a second time I was suprised to find my data collection was not saved to my p5 filesystem but instead saved to my computer. Then after trying to load that data into the p5 editor, my browser decided to freeze. I decided at that point to just start over. Because I would like to try to fix the loading later I put the data into a file on the p5js editor filesystem but didn't try to load it.
 
 After my frustrating data experience and reloading my training data this was my new loss. It was a bit better but still could use some work.
 
-![loss](images/hw5-loss-2.png)
+![loss](../images/hw5-loss-2.png)
 
 Unfortunately the biggest hit I had was that the model could only count to 4 and refused to recognize I had five fingers up whenever I had 5 raised.
 
-![failure](images/hw5-failure.gif)
+![failure](../images/hw5-failure.gif)
 
 I believe this has to do with the fact that it is putting more emphasis on the numbers coming in from my non-thumb fingers since the thumbs position is somewhat variable there. Maybe providing more data for 5 fingers up could make a difference but this was a disappointing end to an attempt to improve my last weeks code.
